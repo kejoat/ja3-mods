@@ -1,0 +1,29 @@
+ID,Text,Translation,Old Text,Old Translation,Status,Gender,Critical Warnings,Non-critical Warnings,Platform Warnings,Location,Context,Section,Keyword,Actor,Voice Actor,Voice ID,Revision,Old Revision,Edit Distance
+966066055142,"When opening combat enemies become <GameTerm('Surprised')> instead of <em>Aware</em>.
+
+Retains the <em>AP</em> from the <em>opening attack</em>.",,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/FoxPerk.generated.lua(00011),CharacterEffectCompositeDef FoxPerk Description,,,,,,,,146
+667077082306,The merc has baked some biscuits. Unfortunately the inventory is full. ,,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/HawksEye.generated.lua(00054),,,,,,,,,68
+754424382903,The merc has baked some biscuits,,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/HawksEye.generated.lua(00057),,,,,,,,,29
+161077132582,"<GameTerm('PinDown')> applies <GameTerm('Exposed')> to the target.
+
+<GameTerm('PinDown')> minimum <em>AP</em> cost is reduced to <em><pindownCostOverwrite> AP</em>.
+
+The merc also makes <GameTerm('Biscuits')>.",,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/HawksEye.generated.lua(00065),CharacterEffectCompositeDef HawksEye Description,,,,,,,,206
+723691536009,All <em>Operations</em> the merc undertakes are completed approximately <em><percent(activityDurationMod)> faster</em>.,,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/JackOfAllTrades.generated.lua(00011),CharacterEffectCompositeDef JackOfAllTrades Description,,,,,,,,120
+382145322496,"Make a longer <em>Run and Gun</em> firing more shots.
+
+Requires an SMG equipped.",,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/RecklessAssault.generated.lua(00011),CharacterEffectCompositeDef RecklessAssault Description,,,,,,,,130
+653169257176,Ending a turn <em>adjacent</em> to an <em>ally</em> grants <em><tempHp></em> <GameTerm('Grit')> to both you and the ally.,,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/ShoulderToShoulder.generated.lua(00058),CharacterEffectCompositeDef ShoulderToShoulder Description,,,,,,,,124
+396025298894,Personal PDA,,,,new,,,,,Trunk\Zulu/Lua/InventoryItemCompositeDef/CustomPDA.generated.lua(00012),InventoryItemCompositeDef CustomPDA DisplayName,,,,,,,,14
+170324531997,Personal PDAs,,,,new,,,,,Trunk\Zulu/Lua/InventoryItemCompositeDef/CustomPDA.generated.lua(00013),InventoryItemCompositeDef CustomPDA DisplayNamePlural,,,,,,,,15
+124312301509,Personal Locksmith Kit,,,,new,,,,,Trunk\Zulu/Lua/InventoryItemCompositeDef/Personal_Vicki_CustomTools.generated.lua(00012),InventoryItemCompositeDef Personal_Vicki_CustomTools DisplayName,,,,,,,,21
+609821932113,Personal Locksmith Kit,,,,new,,,,,Trunk\Zulu/Lua/InventoryItemCompositeDef/Personal_Vicki_CustomTools.generated.lua(00013),InventoryItemCompositeDef Personal_Vicki_CustomTools DisplayNamePlural,,,,,,,,21
+747438157331,Tactical perks 2/9,,,,new,,,,,Trunk\Zulu/Lua/XTemplates/PDAImpResultMerc.lua(00826),XTemplate PDAImpResultMerc Text,,,,,,,,18
+540824911540,Tactical perks <max>/9,,,,new,,,,,Trunk\Zulu/Lua/XTemplates/PDAImpResultMerc.lua(00869),,,,,,,,,22
+312197955233,The merc used a custom PDA to discover additional Intel for <em><SectorName(sectorId)></em>,,,,new,,,,,Trunk\Zulu/Lua/CustomInteractable.lua(00368),,,,,,,,,93
+391944412961,The last enemy to attack you is marked by <GameTerm('Vengeance')><AdditionalTerm('Inspired')>.,,,,new,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/VengefulTemperament.generated.lua(00081),CharacterEffectCompositeDef VengefulTemperament Description,,,,,,,,99
+305238801856,"When you attack an enemy affected by Vengeance, you will become <em>Inspired</em>",,,,new,,,,,Trunk\Zulu/Data/GameTerm.lua(00238),GameTerm Default Vengeance Description,,,,,,,,87
+446391581459,"<em>Once per turn</em>.
+Grants <em><tempHp></em> <GameTerm('Grit')> to everyone in the squad after the merc kills an enemy.",,"<em>Once per turn.</em>
+Grants <em><tempHp></em> <GameTerm('Grit')> to everyone in the squad after the merc kills an enemy.","<em>Once per turn</em>.
+Grants <em><tempHp></em> <GameTerm('Grit')> to everyone in the squad after the merc kills an enemy.",changed,,,,,Trunk\Zulu/Lua/CharacterEffectCompositeDef/WeGotThis.generated.lua(00054),CharacterEffectCompositeDef WeGotThis Description,,,,,,,,2
